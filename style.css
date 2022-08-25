@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #fec7d7;
+    background: rgb(254, 199, 215);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,4 +17,11 @@ body {
 .btn {
     background: #a786df;
     padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: -4px 8px 38px -3px rgba(222, 162, 179, 0.75);
+    -webkit-box-shadow: -4px 8px 38px -3px rgba(222, 162, 179, 0.75);
+    -moz-box-shadow: -4px 8px 38px -3px rgba(222, 162, 179, 0.75);
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
 }
